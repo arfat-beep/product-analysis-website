@@ -1,0 +1,15 @@
+.header{
+    padding: 30px;
+}
+.header a{
+    margin: 30px;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gainsboro;
+
+}
+.header a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+}

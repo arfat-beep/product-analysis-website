@@ -1,0 +1,17 @@
+.review-container{
+    border: 1px solid gainsboro;
+    padding: 5px;
+    border-radius: 10px;
+}
+.review-details{
+    text-align: left;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+}
+.ratings .star{
+    height: 20px;
+    margin-left: 5px;
+    color: #ffd100;
+}

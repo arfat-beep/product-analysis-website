@@ -1,0 +1,46 @@
+[
+    {
+        "index": 0,
+        "name" : "Sadie Parker",
+        "picture": "https://i.pinimg.com/originals/1b/14/34/1b1434c7d78bca9e24bcb89e5126903c.jpg",
+        "comment" : "I could sit here and write all about the specs on this computer, but they are already in the description, and If you are like me... you don't really understand it anyways.",
+        "rating" : 4
+    },
+    {
+        "index": 1,
+        "name" : "David Fisher",
+        "picture": "https://i.pinimg.com/originals/ae/ec/c2/aeecc22a67dac7987a80ac0724658493.jpg",
+        "comment" : "Touchescreen? Nope. That feature is stupid in a laptop, in my view. As you use the keyboard, incidental touche s of the screen change focus or move to different screens--touchscreen is a gimmick and sucks.",
+        "rating" : "5"
+    },{
+        "index": 2,
+        "name" : "Jason",
+        "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "comment" : "A very reasonably priced laptop for basic computing needs. The specs that stick out to me for describing this as 'basic needs' is 4GB of RAM, and 128GB M.2 SSD. Both are at the bare minimum in today's needs. Cell phones now come with those specs( high dollar ones though..).",
+        "rating" : "3"
+    },{
+        "index": 3,
+        "name" : "Carlos Jerson",
+        "picture": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "comment" : "Una compra excelente desde todos los ángulos, lo primero que hice después de desactivarle el modo wndows home S fué actualizarla y descargar mis apps y juegos,",
+        "rating" : "5"
+    },{
+        "index": 4,
+        "name" : "Francisco Cordova",
+        "picture": "https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "comment" : "Deberás es una laptop muy rapida y fluida, con características de hardware actuales, ya incluye un ssd tipo m.2 y puedes agregar un ssd o Hdd adicional.",
+        "rating" : "3"
+    },{
+        "index": 5,
+        "name" : "Peter CS",
+        "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "comment" : "This looks to be a good laptop at a good price, but be aware that it does not have a UK keyboard. This means you can't type certain characters",
+        "rating" : "4"
+    },{
+        "index": 6,
+        "name" : "Carlos Manuel Santana Lechuga",
+        "picture": "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "comment" : "Ansiaba tener esta laptop en mis manos desde que la compré. Tiene todo lo que un adicto a este tipo de dispositivos pudiera desear por el rango de precio: carcasa de aluminio, teclado retroiluminado, disco duro M.2, pantalla FHD",
+        "rating" : "4"
+    }
+]
