@@ -1,14 +1,13 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import ReviewsFromJson from "../../Hook/Hook";
+import ImportFromJson from "../../Hook/ImportFromJson";
 import Review from "../Review/Review";
 import "./Home.css";
 const Home = () => {
-  const [reviews, setReviews] = ReviewsFromJson();
+  const [reviews, setReviews] = ImportFromJson();
   const imgUrl =
     "https://c0.wallpaperflare.com/preview/132/366/508/computer-laptop-light-glow.jpg";
 
-  let homeReviews = reviews.slice(0, 3);
+  // let homeReviews = reviews.slice(0, 3);
   return (
     <div>
       <div className="header-container">
@@ -32,10 +31,9 @@ const Home = () => {
       <div className="curtomer-reviews-container">
         <h1>Customer Reviews</h1>
         <div className="curtomer-reviews">
-          {homeReviews.map((review) => (
-            <Review key={review.index} review={review}></Review>
+          {reviews.slice(0, 3).map((review, index) => (
+            <Review key={review.id} review={review}></Review>
           ))}
-          {}
         </div>
         <Link to="/reviews">See All Reviews</Link>
       </div>

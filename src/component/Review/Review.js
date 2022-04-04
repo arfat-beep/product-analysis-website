@@ -1,12 +1,11 @@
 import React from "react";
 import { StarIcon } from "@heroicons/react/solid";
 import "./Review.css";
-const Review = ({ review }) => {
-  console.log(review);
-  const { name, comment, rating, picture } = review;
+const Review = (props) => {
+  const { name, comment, rating, picture } = props.review;
   let ratingIcons = [];
   for (let i = 1; i <= parseInt(rating); i++) {
-    ratingIcons.push(<StarIcon className="star"></StarIcon>);
+    ratingIcons.push(<StarIcon key={i} className="star"></StarIcon>);
   }
   return (
     <div className="review-container" style={{ textAlign: "center" }}>
