@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-const ImportFromJson = () => {
+const ImportFromJson = (props) => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("reviews.json")
+    fetch(props)
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);

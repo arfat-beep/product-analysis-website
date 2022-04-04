@@ -3,7 +3,7 @@ import ImportFromJson from "../../Hook/ImportFromJson";
 import Review from "../Review/Review";
 import "./Home.css";
 const Home = () => {
-  const [reviews, setReviews] = ImportFromJson();
+  const [reviews, setReviews] = ImportFromJson("reviews.json");
   const imgUrl =
     "https://c0.wallpaperflare.com/preview/132/366/508/computer-laptop-light-glow.jpg";
 
@@ -25,7 +25,7 @@ const Home = () => {
           <Link to="dashboard">Live Demo</Link>
         </div>
         <div className="header-right">
-          <img src={imgUrl} alt="" />
+          <img src={imgUrl} height={500} alt="" />
         </div>
       </div>
       <div className="curtomer-reviews-container">
@@ -35,7 +35,7 @@ const Home = () => {
             <Review key={review.id} review={review}></Review>
           ))}
         </div>
-        <Link to="/reviews">See All Reviews</Link>
+        <Link to="/reviews">See All Reviews ({reviews.length}) </Link>
       </div>
     </div>
   );
