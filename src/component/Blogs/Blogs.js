@@ -18,7 +18,7 @@ const Blogs = () => {
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>HTML Semantic Elements</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body style={{ textAlign: "left" }}>
             Semantic tag is a tag where we can clearly describe the meaning of
             this tag for both developer and user. It's behavior is like a div
             tag. But it's can explain what is the purpose of this code or tag.

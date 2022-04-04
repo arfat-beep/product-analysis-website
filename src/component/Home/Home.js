@@ -12,15 +12,14 @@ const Home = () => {
     <div>
       <div className="header-container">
         <div className="header-left">
-          <h1>Your next phone</h1>
-          <h1>Your next phone</h1>
+          <h1>Mac Studio</h1>
+          <h1>Explore Mac</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde quia,
-            temporibus quibusdam error exercitationem earum porro nisi doloribus
-            dolores, possimus doloremque. Quas, libero deserunt? Perferendis
-            perspiciatis nesciunt harum inventore deleniti odio a delectus,
-            dignissimos officiis? Quidem molestiae officia eos maxime odio
-            magnam, quo dolorem aliquam cum voluptatum nobis harum enim.
+            The MacBook is Apple's third laptop computer family, introduced in
+            2006. Prior laptops were the PowerBook and iBook. In 2015, new
+            MacBooks featured Apple's Retina Display and higher resolutions, as
+            well as the Force Touch trackpad that senses different pressure
+            levels.
           </p>
           <Link to="dashboard">Live Demo</Link>
         </div>
