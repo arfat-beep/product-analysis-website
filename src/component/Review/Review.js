@@ -1,8 +1,8 @@
 import React from "react";
 import { StarIcon } from "@heroicons/react/solid";
 import "./Review.css";
-const Review = (props) => {
-  const { name, comment, rating, picture } = props.review;
+const Review = ({ review }) => {
+  const { name, comment, rating, picture } = review;
   let ratingIcons = [];
   for (let i = 1; i <= parseInt(rating); i++) {
     ratingIcons.push(<StarIcon key={i} className="star"></StarIcon>);
@@ -13,7 +13,7 @@ const Review = (props) => {
       <div className="review-details">
         <h5>Name: {name} </h5>
         <p>
-          <strong>Comment</strong>: {comment}{" "}
+          <strong>Comment</strong>: {comment}
         </p>
         <p className="ratings">
           {" "}

@@ -1,9 +1,9 @@
 import React from "react";
-import { Accordion } from "react-bootstrap";
+import { Accordion, Container } from "react-bootstrap";
 
 const Blogs = () => {
   return (
-    <div>
+    <Container fluid className="mt-3">
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
           <Accordion.Header>What is Context API?</Accordion.Header>
@@ -20,14 +20,14 @@ const Blogs = () => {
           <Accordion.Header>HTML Semantic Elements</Accordion.Header>
           <Accordion.Body style={{ textAlign: "left" }}>
             Semantic tag is a tag where we can clearly describe the meaning of
-            this tag for both developer and user. It's behavior is like a div
-            tag. But it's can explain what is the purpose of this code or tag.
-            Anyone with semantic tag can understand the meaning and purpose of
-            every semantic tag in a website.
+            this tag for both developer and user. It's behavior is like a
+            Container fluid tag. But it's can explain what is the purpose of
+            this code or tag. Anyone with semantic tag can understand the
+            meaning and purpose of every semantic tag in a website.
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
-    </div>
+    </Container>
   );
 };
 
