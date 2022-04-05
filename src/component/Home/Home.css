@@ -15,7 +15,7 @@
     margin: 0;
 }
 .header-left h1:nth-child(2){
-    color: pink;
+    color:  rgba(0, 0, 255, 0.359);;
 }
 .header-left a,.curtomer-reviews-container a{
     background-color: rgba(0, 0, 255, 0.359);

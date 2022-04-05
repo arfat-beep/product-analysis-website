@@ -1,4 +1,4 @@
-# React Laptop Seller
+# Laptop Seller
 
 ## [Personal netlify repo](https://react-laptop-seller.netlify.app/)
 

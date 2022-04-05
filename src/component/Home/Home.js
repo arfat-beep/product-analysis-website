@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <div className="header-container">
         <div className="header-left">
-          <h1>Mac Studio</h1>
+          <h1>Laptop Seller</h1>
           <h1>Explore Mac</h1>
           <p>
             The MacBook is Apple's third laptop computer family, introduced in
@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </div>
       <div className="curtomer-reviews-container">
-        <h1>Customer Reviews</h1>
+        <h1>Customer Reviews ({reviews.slice(0, 3).length}) </h1>
         <div className="curtomer-reviews">
           {reviews.slice(0, 3).map((review, index) => (
             <Review key={review.id} review={review}></Review>
